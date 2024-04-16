@@ -1,0 +1,33 @@
+.txt {
+  width: 150px;
+  height: 150px;  
+
+}
+
+.txt-container {
+ background-color: lightgrey;
+ display: flex;
+ justify-content: right;
+ align-items: center;
+}
+
+.btn-container {
+ margin-top: 10px;
+ height: 40px;
+ width: 40px; 
+ display: grid;
+ grid-template-columns: auto auto auto;  
+ gap: 10px;
+}
+
+.btn-number-component {
+background-color: gold;
+}
+
+.btn-operations-component {
+background-color: blue;
+}
+
+.btn-symbol-component {
+    background-color: red;
+    }
